@@ -1,0 +1,15 @@
+variable "project_name"                  { type = string }
+variable "environment"                   { type = string }
+variable "aws_region"                    { type = string }
+variable "vpc_id"                        { type = string }
+variable "public_subnet_id"             { type = string }
+variable "private_subnet_id"            { type = string }
+variable "kafka_security_group_id"       { type = string }
+variable "app_security_group_id"         { type = string }
+variable "monitoring_security_group_id"  { type = string }
+variable "bastion_security_group_id"     { type = string }
+variable "key_pair_name"                 { type = string }
+variable "kafka_instance_type"           { type = string }
+variable "app_instance_type"             { type = string }
+variable "monitoring_instance_type"      { type = string }
+variable "kafka_broker_count"            { type = number }
