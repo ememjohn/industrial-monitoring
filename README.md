@@ -27,7 +27,7 @@ and operational visibility across a fleet of industrial equipment.
 ## How to run locally
 
 1. Clone the repository
-   git clone https://github.com/Ememscriba/industrial-monitoring.git
+   git clone https://github.com/ememjohn/industrial-monitoring.git
    cd industrial-monitoring
 
 2. Create virtual environment
@@ -70,4 +70,4 @@ Two detection methods run on every message:
 
 ## Author
 
-Ememscriba
+Emem John
